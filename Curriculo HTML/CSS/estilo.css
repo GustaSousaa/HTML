@@ -7,6 +7,18 @@
 	height: 100%;
 }
 
+.name{
+	margin-bottom: 100px;
+}
+
+.cabecalho h1{
+	margin-bottom: 0px;
+	margin-top: 0px;
+
+}
+
+
+
 .cabecalho{
 	width: 675px;
 	height: 400px;
@@ -15,17 +27,23 @@
 	left: 30px;
 	text-align:left;
 	display: inline-block; 	
-	font-family: Courier, monospace;
+	align-items: center;
+	
 }
 
 .cabecalho_01{
-	margin: 150px 100px 200px 140px;
+	height: 100%;
+	width: 80%;
+	vertical-align: middle;
+	padding-left: 20% ;
+	padding-top: 30% ;
+
+	
 }
 
-.contato{
+.cabecalho p{
 	list-style: none;
 	font-size: 16px;
-	font-family: Courier, monospace;
 
 }
 
