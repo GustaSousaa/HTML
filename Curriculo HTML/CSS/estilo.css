@@ -5,41 +5,63 @@
 .all{
 	position: absolute;
 	height: 100%;
+	width: 100%;
 }
 
 .name{
-	margin-bottom: 100px;
+	margin-bottom: 0%;
+	text-align: center;
+}
+.sub_name{
+	margin-top: 0%;
+	margin-bottom: 70px;
+	margin-right: 12%;
+	text-align: right;
+	font-size: 12px;
+	opacity: 40%;
 }
 
 .cabecalho h1{
 	margin-bottom: 0px;
 	margin-top: 0px;
-
+	
 }
 
 
 
 .cabecalho{
-	width: 675px;
-	height: 400px;
-	background-color: white;
+	width: 50%;
+	height: 100%;
 	font-size: 30px;
-	left: 30px;
 	text-align:left;
 	display: inline-block; 	
-	align-items: center;
-	
-}
 
+
+}
 .cabecalho_01{
-	height: 100%;
-	width: 80%;
+	height: 70%;
+	width: 50%;
 	vertical-align: middle;
-	padding-left: 20% ;
-	padding-top: 30% ;
+	margin-left: 25% ;
+	position: relative;
+	top: 30%;
+	margin-bottom: ;
+}
 
+
+.corpo_00{
+	color: white;
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: rgba(9, 13, 16, 0.994);
+	font-size: 30px;
+	font-size: 14px;
+	opacity: 100%;
 	
 }
+
+
 
 .cabecalho p{
 	list-style: none;
@@ -47,18 +69,6 @@
 
 }
 
-
-.corpo_00{
-	color: white;
-	width: 674px;
-	height: 100%;
-	float: left;
-	background-color: rgba(9, 13, 16, 0.994);
-	font-size: 30px;
-	left: 30px;
-	font-size: 14px;
-	opacity: 100%;
-}
 
 .corpo_01{
 	margin: 50px 40px 40px 40px;
