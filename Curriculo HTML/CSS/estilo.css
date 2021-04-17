@@ -10,7 +10,6 @@
 .cabecalho{
 	width: 675px;
 	height: 400px;
-	float: right;
 	background-color: white;
 	font-size: 30px;
 	left: 30px;
@@ -61,20 +60,14 @@ html, body{
 	 list-style: none;
  } 
 
-.hr{
 
-}
 
 .principal{
 	font-size: 25px;
 	font-weight: bolder
 }
 
-.sub{
 
-
-
-}
 
 .sub_01{
 	opacity: 40%;
@@ -94,9 +87,6 @@ html, body{
 
  @media screen and (max-width: 480px) {
 		
-.cabecalho{
-
-}
 
 
 
