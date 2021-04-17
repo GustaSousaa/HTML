@@ -54,7 +54,7 @@
 	width: 50%;
 	height: 100%;
 	float: left;
-	background-color: rgba(9, 13, 16, 0.994);
+	background-color: rgba(5, 7, 9, 0.994);
 	font-size: 30px;
 	font-size: 14px;
 	opacity: 100%;
@@ -107,6 +107,11 @@ html, body{
 	opacity: 40%;
 	padding-left: 320px;
 
+}
+
+
+.linha{
+	opacity: 40%;
 }
 
 
