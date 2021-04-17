@@ -1,20 +1,103 @@
 @charset "UTF-8";
 
 
-.cabecalho{
-	background: orange;
-	font-size: 30px;
-	left: 30px;
-	text-align: center; 
-	width:500px;  
-	height:300px;
+
+.all{
+	position: absolute;
+	height: 100%;
 }
 
-.corpo{
-	font-size: 30;
+.cabecalho{
+	width: 675px;
+	height: 400px;
+	float: right;
+	background-color: white;
+	font-size: 30px;
+	left: 30px;
+	text-align:left;
+	display: inline-block; 	
+	font-family: Courier, monospace;
+}
+
+.cabecalho_01{
+	margin: 150px 100px 200px 140px;
 }
 
 .contato{
 	list-style: none;
+	font-size: 16px;
+	font-family: Courier, monospace;
+
 }
 
+
+.corpo_00{
+	color: white;
+	width: 674px;
+	height: 100%;
+	float: left;
+	background-color: rgba(16, 22, 28, 0.994);
+	font-size: 30px;
+	left: 30px;
+	font-size: 14px;
+	opacity: 100%;
+}
+
+.corpo_01{
+	margin: 50px 40px 40px 40px;
+
+}
+
+
+html, body{
+	margin:0px !important;
+	padding: 0px !important;
+	font-family: Courier, monospace;
+ }
+
+
+ .h2, h3, h4, h5, h6, p, ul, li, a, div {
+	 margin: 0px 0px;
+	 list-style: none;
+ } 
+
+.hr{
+
+}
+
+.principal{
+	font-size: 25px;
+	font-weight: bolder
+}
+
+.sub{
+
+
+
+}
+
+.sub_01{
+	opacity: 40%;
+	padding-left: 80px;
+
+}
+
+.sub_curso{
+	opacity: 40%;
+	padding-left: 320px;
+
+}
+
+
+
+
+
+ @media screen and (max-width: 480px) {
+		
+.cabecalho{
+	
+}
+
+
+
+ }
