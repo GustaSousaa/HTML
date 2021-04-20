@@ -114,12 +114,3 @@ html, body{
 	opacity: 40%;
 }
 
-.link{
-	text-decoration: none;
-	color: black;
-}
-
-.link:hover{
-	font-weight: bold;
-}
-
